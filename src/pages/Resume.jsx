@@ -1,6 +1,7 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
 function Resume() {
   return (
-    <div>Resume</div>
+    <div>Coming Soon!</div>
   )
 }
 
