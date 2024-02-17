@@ -24,7 +24,7 @@ function About() {
         </Col>
         <Col md style={styles.text}>
           <h2>My name is Andria Goodwin</h2>
-          <p>I am a coding bootcamp student through KU and edX. I know that although I have learned a lot during my time in coding bootcamp, there will always be more to learn and ways to become more efficient. My goal is to always be open to learning and growing.</p>
+          <p>I am a coding bootcamp student through KU and edX. I know that, although I have learned a lot during my time in coding bootcamp, there will always be more to learn and ways to become more efficient. My goal is to always be open to learning and growing.</p>
         </Col>
       </Row>  
     </div>
