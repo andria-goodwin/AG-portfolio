@@ -9,7 +9,7 @@ import { Container } from "react-bootstrap";
 
 const styles = {
   container: {
-    marginTop: "100px",
+    marginTop: "25px",
     marginBottom: "100px",
   },
   footerContainer: {

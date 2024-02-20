@@ -5,6 +5,7 @@ import { Image, Row, Col } from 'react-bootstrap'
 const styles = {
   about: {
     textAlign: 'center',
+    marginTop: '5%',
   },
   img: {
     width: 250,
@@ -17,8 +18,10 @@ const styles = {
 
 function About() {
   return (
-    <div style={styles.about}>
-      <Row>
+    <div >
+      <h2 className="top-title">About Me</h2>
+      <hr></hr>
+      <Row style={styles.about}>
         <Col md>
           <Image src='src/assets/AG-photo.jpg' style={styles.img} roundedCircle />
         </Col>
