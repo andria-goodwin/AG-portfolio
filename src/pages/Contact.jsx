@@ -55,7 +55,7 @@ return (
                 <Alert key="danger" variant="danger">{errorMessage}</Alert>
             </div>
             )}
-        <form className="justify-content-center" id="contact-form">
+        <form className="justify-content-center" id="contact-form" data-netlify="true">
             <div className="mt-5" >
                 <label htmlFor="name">Name:</label>
                 <input className="form-control" type="text" name="name"  defaultValue={name} onBlur={handleChange}/>
