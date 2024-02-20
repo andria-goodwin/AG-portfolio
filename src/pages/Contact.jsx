@@ -65,7 +65,7 @@ return (
         data-netlify="true"
         name="contact"
         method="post"
-        onSubmit={handleSubmit}
+        // onSubmit={handleSubmit}
         >
             <div className="mt-5" >
                 <label htmlFor="name">Name:</label>
