@@ -30,7 +30,7 @@ function About() {
         <Row style={styles.about}>
           <Col md>
             <Image
-              src="src/assets/AG-photo.jpg"
+              src="/assets/AG-photo.jpg"
               style={styles.img}
               roundedCircle
             />

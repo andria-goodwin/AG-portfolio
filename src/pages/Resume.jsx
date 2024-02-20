@@ -32,7 +32,7 @@ function Resume() {
       <Row>
         <Col md>
           <a href='https://drive.google.com/file/d/103yFWmNY7MWUe6_aVXo-FkedoJ0vcxgF/view?usp=sharing' target="blank">
-            <img src='src/assets/AG-Resume.png' style={styles.img} />
+            <img src='/assets/AG-Resume.png' style={styles.img} />
             <p>Download</p>
           </a>
           
