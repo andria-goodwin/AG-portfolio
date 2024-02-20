@@ -9,8 +9,9 @@ const styles = {
     paddingRight: '3%',
     paddingTop:'1%',
     paddingBottom: '1%',
-    background: 'lightgray',
-    
+    background: '#27024D',
+    color: "#D6FEFF",
+    fontFamily: "monospace",
   },
   link: {
     textDecoration: "none",
@@ -24,12 +25,8 @@ const styles = {
 function Header() {
   return (
     <div style={styles.container}>
-        
-        <Link to="/" style={styles.link}>
-          <h1 style={styles.h1}>Andria Goodwin</h1>
-        </Link>
-
-        <Navigation/>
+      <h1 style={styles.h1}>Andria Goodwin</h1>
+      <Navigation/>
     </div>
   )
 }

@@ -1,8 +1,12 @@
-import "../App.css";
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Row, Col } from 'react-bootstrap'
+import { Card, Row, Col } from 'react-bootstrap'
 
 const styles = {
+  card: {
+    padding: "2%",
+    background: "#D6FEFF",
+    fontFamily: "monospace",
+  },
   resume: {
     textAlign: 'center',
   },
@@ -20,14 +24,14 @@ const styles = {
 
 function Resume() {
   return (
-    <section>
+    <Card style={styles.card}>
       <h2 className="top-title">Resume</h2>
       <hr></hr>
 
       <div style={styles.resume}>
       <Row>
         <Col md>
-          <a href='https://drive.google.com/file/d/103yFWmNY7MWUe6_aVXo-FkedoJ0vcxgF/view?usp=sharing'>
+          <a href='https://drive.google.com/file/d/103yFWmNY7MWUe6_aVXo-FkedoJ0vcxgF/view?usp=sharing' target="blank">
             <img src='src/assets/AG-Resume.png' style={styles.img} />
             <p>Download</p>
           </a>
@@ -56,7 +60,7 @@ function Resume() {
         </Col>
       </Row>  
     </div>
-    </section>
+    </Card>
   )
 }
 
