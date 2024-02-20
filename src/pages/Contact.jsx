@@ -1,7 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Alert from 'react-bootstrap/Alert'
+import { Alert, Card } from 'react-bootstrap'
 import { useState } from 'react';
 import { validateEmail } from '../utils/helpers';
+
+const styles = {
+    card: {
+        padding: "2%",
+        background: "#D6FEFF",
+        fontFamily: "monospace",
+    },
+};
 
 function Contact() {
 
@@ -39,7 +47,7 @@ function Contact() {
     }
 
 return (
-    <section className="container">
+    <Card style={styles.card}>
         <h2 data-testid='h1tag' className="top-title">Contact Form</h2>
         <hr></hr>
         {errorMessage && (
@@ -65,7 +73,7 @@ return (
             <button data-testid='button' className="btn btn-outline-dark " type="submit" onSubmit={handleSubmit}>Submit</button>
             </div>
         </form>
-    </section>
+    </Card>
     );
 }
     
