@@ -42,8 +42,9 @@ function Contact() {
         }
     }
 
-    function handleSubmit(e) {
-        e.preventDefault();
+    function handleSubmit() {
+        // e.preventDefault();
+        location.reload();
     }
 
 return (
