@@ -42,9 +42,9 @@ function Contact() {
         }
     }
 
-    function handleSubmit() {
-        // e.preventDefault();
-        location.reload();
+    function handleSubmit(e) {
+        e.preventDefault();
+        
     }
 
 return (
@@ -57,11 +57,10 @@ return (
             </div>
             )}
         <form className="justify-content-center contactForm"
-        netlify
+        data-netlify="true"
         name="contact"
-        method="POST"
-        onSubmit="submit"
-        action=""
+        method="post"
+        onSubmit={handleSubmit}
         >
             <div className="mt-5" >
                 <label htmlFor="name">Name:</label>
@@ -77,7 +76,7 @@ return (
             </div> 
 
             <div className="mt-5 mb-5" >
-            <button data-testid='button' className="btn btn-outline-dark " type="submit" onSubmit={handleSubmit}>Submit</button>
+            <button data-testid='button' className="btn btn-outline-dark " type="submit">Submit</button>
             </div>
         </form>
     </Card>
