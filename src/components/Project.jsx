@@ -33,10 +33,10 @@ function Project(props) {
         <div className="content">
               <h3 style={styles.title}>{props.name}</h3>
               <p className="proj-icons-container">
-              <a href={props.github}>
+              <a href={props.github} target="blank">
                 <img src="/assets/Github.png" alt="GitHub Repo" style={styles.github}></img>
               </a> 
-              <a href={props.deploy}>
+              <a href={props.deploy} target="blank">
                 <img src="/assets/Website-icon.png" alt="Live Application" style={styles.website}/>
               </a> 
               </p>
