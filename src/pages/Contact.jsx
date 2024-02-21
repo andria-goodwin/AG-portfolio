@@ -43,8 +43,7 @@ function Contact() {
     }
 
     function handleSubmit(e) {
-        e.preventDefault();   
-        alert("Message Sent! Thank You!");
+        e.preventDefault();
     }
 
 return (
@@ -59,7 +58,7 @@ return (
         <form className="justify-content-center contactForm"
         name="contact"
         method="post"
-        action="/contact"
+        action="/"
         data-netlify="true"
         >
             <input type="hidden" name="form-name" value="contact" />
