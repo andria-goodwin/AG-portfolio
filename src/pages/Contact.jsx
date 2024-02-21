@@ -65,6 +65,7 @@ return (
         name="contact"
         method="post"
         action="/pages/contact"
+        data-netlify="true"
         >
             <input type="hidden" name="form-name" value="contact" />
             <div className="mt-5" >
