@@ -17,8 +17,6 @@ function Contact() {
 
     const [errorMessage, setErrorMessage] = useState('');
 
-    const [successMessage, setSuccessMessage] = useState('');
-
     const { name, email, message } = formState;
 
     function handleChange(e) {
@@ -45,10 +43,8 @@ function Contact() {
     }
 
     function handleSubmit(e) {
-        e.preventDefault();
-        setFormState({ name: '', email: '', message: '' });
-        setSuccessMessage('message sent successfully');
-        
+        e.preventDefault();   
+        alert("Message Sent! Thank You!");
     }
 
 return (
@@ -58,7 +54,6 @@ return (
         {errorMessage && (
             <div>
                 <Alert key="danger" variant="danger">{errorMessage}</Alert>
-                <Alert key="success" variant="success">{successMessage}</Alert>
             </div>
             )}
         <form className="justify-content-center contactForm"
