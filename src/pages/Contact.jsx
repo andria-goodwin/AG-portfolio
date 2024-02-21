@@ -62,7 +62,6 @@ return (
             </div>
             )}
         <form className="justify-content-center contactForm"
-        data-netlify="true"
         name="contact"
         method="post"
         // onSubmit={handleSubmit}
