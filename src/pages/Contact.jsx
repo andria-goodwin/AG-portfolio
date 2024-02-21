@@ -67,6 +67,7 @@ return (
         method="post"
         // onSubmit={handleSubmit}
         >
+            <input type="hidden" name="form-name" value="contact" />
             <div className="mt-5" >
                 <label htmlFor="name">Name:</label>
                 <input className="form-control" type="text" name="name"  defaultValue={name} onBlur={handleChange}/>

@@ -7,6 +7,26 @@
     <title>Andria Goodwin</title>
   </head>
   <body>
+    <form className="justify-content-center contactForm"
+        data-netlify="true"
+        name="contact"
+        method="post"
+        netlify
+        netlify-honeypot="bot-field"
+        hidden
+        >
+            <div className="mt-5" >
+                <input className="form-control" type="text" name="name"  defaultValue={name} onBlur={handleChange}/>
+            </div>
+            <div className="mt-5" >
+                <input className="form-control" type="email"  name="email" defaultValue={email} onBlur={handleChange} />
+            </div>
+            <div className="mt-5" >
+                <textarea className="form-control" name="message" defaultValue={message} onBlur={handleChange} rows="7" />
+            </div> 
+
+            
+        </form>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
