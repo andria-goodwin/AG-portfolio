@@ -64,6 +64,7 @@ return (
         <form className="justify-content-center contactForm"
         name="contact"
         method="post"
+        action="/contact"
         // onSubmit={handleSubmit}
         >
             <input type="hidden" name="form-name" value="contact" />
