@@ -59,7 +59,7 @@ return (
         <form className="justify-content-center contactForm"
         name="contact"
         method="post"
-        action="/"
+        action="/contact"
         data-netlify="true"
         >
             <input type="hidden" name="form-name" value="contact" />
