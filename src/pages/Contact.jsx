@@ -64,15 +64,15 @@ return (
             <input type="hidden" name="form-name" value="contact" />
             <div className="mt-5" >
                 <label htmlFor="name">Name:</label>
-                <input className="form-control" type="text" name="name"  defaultValue={name} onBlur={handleChange}/>
+                <input className="form-control" type="text" name="name"  defaultValue={name} onBlur={handleChange} required/>
             </div>
             <div className="mt-5" >
                 <label htmlFor="email">Email Address:</label>
-                <input className="form-control" type="email"  name="email" defaultValue={email} onBlur={handleChange} />
+                <input className="form-control" type="email"  name="email" defaultValue={email} onBlur={handleChange} required/>
             </div>
             <div className="mt-5" >
                 <label htmlFor="message">Message:</label>
-                <textarea className="form-control" name="message" defaultValue={message} onBlur={handleChange} rows="7" />
+                <textarea className="form-control" name="message" defaultValue={message} onBlur={handleChange} rows="7" required/>
             </div> 
 
             <div className="mt-5 mb-5" >
