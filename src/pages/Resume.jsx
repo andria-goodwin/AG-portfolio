@@ -31,7 +31,7 @@ function Resume() {
       <div style={styles.resume}>
       <Row>
         <Col md>
-          <a href='https://drive.google.com/file/d/103yFWmNY7MWUe6_aVXo-FkedoJ0vcxgF/view?usp=sharing' target="blank">
+          <a href='https://drive.google.com/file/d/1p8uZKzapZPRgu4kT7xlyyEE8KhB6FS_s/view?usp=sharing' target="blank">
             <img src='/assets/AG-Resume.png' style={styles.img} />
             <p>Download</p>
           </a>
