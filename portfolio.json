@@ -1,41 +1,48 @@
 [
     {
         "id": 1,
+        "name": "Chore Quest",
+        "image": "/assets/chore-quest.png",
+        "github": "https://github.com/collinshepherd/Chore-Quest",
+        "deploy": "https://chore-quest-0f3d855c0443.herokuapp.com/"
+    },
+    {
+        "id": 2,
         "name": "Foodie Forum",
         "image": "/assets/Foodie-forum-home.png",
         "github": "https://github.com/andria-goodwin/foodie-forum",
         "deploy": "https://foodie-forum-8-9cb2bc2e8559.herokuapp.com/"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Project Hangman",
         "image": "/assets/Project-Hangman.png",
         "github": "https://github.com/andria-goodwin/project-hangman",
         "deploy": "https://andria-goodwin.github.io/project-hangman/"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Express.js Notebook",
         "image": "/assets/notes-page.png",
         "github": "https://github.com/andria-goodwin/express-js-notebook",
         "deploy": "https://express-js-notebook-4158ef7c87d6.herokuapp.com/"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Weather App",
         "image": "/assets/AG-search-history.png",
         "github": "https://github.com/andria-goodwin/weather-app",
         "deploy": "https://andria-goodwin.github.io/weather-app/"
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "JATE PWA",
         "image": "/assets/jate-pwa.png",
         "github": "https://github.com/andria-goodwin/jate-pwa",
         "deploy": "https://jate-pwa-9-e486d9a0b732.herokuapp.com/"
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "Work Day Scheduler",
         "image": "/assets/Workday-scheduler.png",
         "github": "https://github.com/andria-goodwin/daily-planner",
