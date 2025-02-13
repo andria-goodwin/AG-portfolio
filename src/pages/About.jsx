@@ -10,7 +10,7 @@ const styles = {
   about: {
     textAlign: "center",
     marginTop: "3%",
-    marginBottom: "5%",
+    marginBottom: "3%",
   },
   img: {
     marginTop: "5%",
@@ -45,13 +45,18 @@ function About() {
               there will always be more to learn and ways to become more
               efficient. My goal is to always be open to learning and growing.
             </p>
-            <br/>
             <p>
               Before coding, I worked in the medical field as a CNA and/or CMA 
               for over 8 years. I primarily supported people with intellectual 
               and/or developmental disabilities but have spent time supporting 
               the elderly. I intend to apply the patience, adaptability, and reliability 
               that was essential in the medical field to a new career path in web development.
+            </p>
+            <p>Since July 2024, I have been working as a service desk analyst. In this role,
+              I have been assisting users of an online EHR software with troubleshooting,
+              account management, and general use of the software. I would do this by
+              answering incoming phone calls, chats, and self-service tickets and
+              documenting all interactions in a ticketing system.
             </p>
           </Col>
         </Row>
